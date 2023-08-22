@@ -1,0 +1,70 @@
+<nav class="navbar">
+    <img src="logo.jpg" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id=".navbar"></div>
+
+    <ul>
+        <li id="item"><a href="">Profile</a></li>
+        Button trigger modal
+        <li id="item"><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Log in</a></li>
+        <!-- Modal -->
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content"
+                    style="background-image: url('back.jpg'); background-size: cover; border: 2px solid aqua; border-radius: 23px; ">
+                    <div class="modal-header" style="border-bottom: 2px solid transparent;">
+                        <h1 class="modal-title fs-8" id="staticBackdropLabel"
+                            style="color: white; margin-left: 38%;">Sign in </h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content"
+                                style="height: 300px; width: 600px; background-color: transparent; border: 2px solid transparent">
+                                <form>
+                                    <div class="row mb-2">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label"
+                                            style="margin:  20px; color: rgb(255, 255, 255);">Email</label>
+                                        <div class="col-sm-8">
+                                            <input type="email" class="form-control" id="inputEmail3"
+                                                style="margin: 20px 0px;">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label"
+                                            style="margin: 0px 20px; color: rgb(255, 255, 255);">Password</label>
+                                        <div class="col-sm-8">
+                                            <input type="password" class="form-control" id="inputPassword3">
+                                        </div>
+                                        <a href="#"
+                                            style="color: rgb(255, 255, 255); margin: 10px; margin-left: 300px;">Forgot
+                                            Password</a>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="margin-left: 30px; margin-top: 60px;">Close</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="border-top: 2px solid transparent;">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                            Sign in
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <li id="item"><a href=""> Sign up</a></li>
+
+    </ul>
+
+
+</nav>
+
+</header>
